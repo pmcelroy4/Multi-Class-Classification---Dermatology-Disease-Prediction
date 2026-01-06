@@ -28,16 +28,16 @@ sns.set_style('whitegrid')
 data.hist(bins=10, figsize=(20,15))
 # plt.show()
 
-fig, axes = plt.subplots(nrows = 7, ncols = 5, figsize = (20,15))
+fig, axes = plt.subplots(nrows = 6, ncols = 6, figsize = (20,15))
 
 for i, column in enumerate(data.columns):
-    row = i // 7
-    col = i % 5
+    row = i // 6
+    col = i % 6
     sns.boxplot(x=data[column], ax=axes[row, col])
     axes[row, col].set_title(column)
 
 plt.tight_layout()
-# plt.show()
+plt.show()
 
-print(len(data.columns))
+#print(len(data.columns))
 
