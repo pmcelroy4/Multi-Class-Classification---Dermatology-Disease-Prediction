@@ -36,8 +36,12 @@ for i, column in enumerate(data.columns):
     sns.boxplot(x=data[column], ax=axes[row, col])
     axes[row, col].set_title(column)
 
-plt.tight_layout()
-plt.show()
+# plt.tight_layout()
+# plt.show()
 
-#print(len(data.columns))
 
+# print(len(data.columns))
+
+# Data features are mostly categorical (0, 1, 2, 3) with the exception of age, it seems to be the severity of certain symptoms with 3 being the most severe.
+# With that in mind, the above visualizations don't necessarily explain the data super well, we will look into new visuals to accurately portray the information.
+print(data.columns)
