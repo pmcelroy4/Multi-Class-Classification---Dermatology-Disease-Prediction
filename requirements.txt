@@ -1,6 +1,0 @@
-# Data processing for calculations
-pandas>=1.3.0
-numpy>=1.21.0
-
-# Visualization for development and analysis
-matplotlib>=3.5.0
