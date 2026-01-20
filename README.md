@@ -43,7 +43,7 @@ Feature importance plots were generated to identify the most influential feature
 ---
 
 ## Project Structure
-'''bash
+```bash
 .
 ├── data
 │   └── dermatology_database_1.csv
@@ -52,7 +52,7 @@ Feature importance plots were generated to identify the most influential feature
 ├── old
 │   └── Derma_Classification.ipynb
 └── README.md
-'''
+```
 
 ---
 
